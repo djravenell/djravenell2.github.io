@@ -1,9 +1,214 @@
+<!DOCTYPE html>
+
 <html>
-
-<body>
-  <h1>DJ Ravenell</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
-
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h1>My Website Style Guide</h1>
+    <div class="container">
+      <h2>Colors</h2>
+      <div class="color-container">
+        <div class="color-panel maroon">
+          <p class="color-label" >Maroon</p>
+          <p class="color-hex">#800000</p>
+          <p class="color-rgb">rgb(128, 0, 0)</p>
+          <p class="color-rgba">rgba(128, 0, 0, 1)</p>
+          <p class="color-hsl">hsl(0, 100%, 25%)</p>
+          <p class="color-hsla">hsla(0, 100%, 25%, 1)</p>
+        </div>
+        <div class="color-panel red">
+          <p class="color-label" >Red</p>
+          <p class="color-hex">#ff0000</p>
+          <p class="color-rgb">rgb(255, 0, 0)</p>
+          <p class="color-rgba">rgba(255, 0, 0, 1)</p>
+          <p class="color-hsl">hsl(0, 100%, 50%)</p>
+          <p class="color-hsla">hsla(0, 100%, 50%, 1)</p>
+        </div>
+        <div class="color-panel orange">
+          <p class="color-label" >Orange</p>
+          <p class="color-hex">#ffa500</p>
+          <p class="color-rgb">rgb(255, 165, 0)</p>
+          <p class="color-rgba">rgba(255, 165, 0, 1)</p>
+          <p class="color-hsl">hsl(39, 100%, 50%)</p>
+          <p class="color-hsla">hsla(39, 100%, 50%, 1)</p>
+        </div>
+        <div class="color-panel yellow">
+          <p class="color-label" >Yellow</p>
+          <p class="color-hex">#ffff00</p>
+          <p class="color-rgb">rgb(255, 255, 0)</p>
+          <p class="color-rgba">rgba(255, 255, 0, 1)</p>
+          <p class="color-hsl">hsl(60, 100%, 50%)</p>
+          <p class="color-hsla">hsla(60, 100%, 50%, 1)</p>
+        </div>
+        <div class="color-panel olive">
+          <p class="color-label" >Olive</p>
+          <p class="color-hex">#808000</p>
+          <p class="color-rgb">rgb(128, 128, 0)</p>
+          <p class="color-rgba">rgba(128, 128, 0, 1)</p>
+          <p class="color-hsl">hsl(60, 100%, 25%)</p>
+          <p class="color-hsla">hsla(60, 100%, 25%, 1)</p>
+        </div>
+        <div class="color-panel purple">
+          <p class="color-label" >Purple</p>
+          <p class="color-hex">#800080</p>
+          <p class="color-rgb">rgb(128, 0, 128)</p>
+          <p class="color-rgba">rgba(128, 0, 128, 1)</p>
+          <p class="color-hsl">hsl(300, 100%, 25%)</p>
+          <p class="color-hsla">hsla(300, 100%, 25%, 1)</p>
+        </div>
+        <div class="color-panel fuchsia">
+          <p class="color-label" >Fuchsia</p>
+          <p class="color-hex">#ff00ff</p>
+          <p class="color-rgb">rgb(255, 0, 255)</p>
+          <p class="color-rgba">rgba(255, 0, 255, 1)</p>
+          <p class="color-hsl">hsl(300, 100%, 50%)</p>
+          <p class="color-hsla">hsla(300, 100%, 50%, 1)</p>
+        </div>
+        <div class="color-panel white">
+          <p class="color-label" >White</p>
+          <p class="color-hex">#ffffff</p>
+          <p class="color-rgb">rgb(255, 255, 255)</p>
+          <p class="color-rgba">rgba(255, 255, 255, 1)</p>
+          <p class="color-hsl">hsl(0, 0%, 100%)</p>
+          <p class="color-hsla">hsla(0, 0%, 100%, 1)</p>
+        </div>
+        <div class="color-panel lime">
+          <p class="color-label" >Lime</p>
+          <p class="color-hex">#00ff00</p>
+          <p class="color-rgb">rgb(0, 255, 0)</p>
+          <p class="color-rgba">rgba(0, 255, 0, 1)</p>
+          <p class="color-hsl">hsl(120, 100%, 50%)</p>
+          <p class="color-hsla">hsla(120, 100%, 50%, 1)</p>
+        </div>
+        <div class="color-panel green">
+          <p class="color-label" >Green</p>
+          <p class="color-hex">#008000</p>
+          <p class="color-rgb">rgb(0, 128, 0)</p>
+          <p class="color-rgba">rgba(0, 128, 0, 1)</p>
+          <p class="color-hsl">hsl(120, 100%, 25%)</p>
+          <p class="color-hsla">hsla(120, 100%, 25%, 1)</p>
+        </div>
+        <div class="color-panel navy">
+          <p class="color-label" >Navy</p>
+          <p class="color-hex">#000080</p>
+          <p class="color-rgb">rgb(0, 0, 128)</p>
+          <p class="color-rgba">rgba(0, 0, 128, 1)</p>
+          <p class="color-hsl">hsl(240, 100%, 25%)</p>
+          <p class="color-hsla">hsla(240, 100%, 25%, 1)</p>
+        </div>
+        <div class="color-panel blue">
+          <p class="color-label" >Blue</p>
+          <p class="color-hex">#0000ff</p>
+          <p class="color-rgb">rgb(0, 0, 255)</p>
+          <p class="color-rgba">rgba(0, 0, 255, 1)</p>
+          <p class="color-hsl">hsl(240, 100%, 50%)</p>
+          <p class="color-hsla">hsla(240, 100%, 50%, 1)</p>
+        </div>
+        <div class="color-panel aqua">
+          <p class="color-label" >Aqua</p>
+          <p class="color-hex">#00ffff</p>
+          <p class="color-rgb">rgb(0, 255, 255)</p>
+          <p class="color-rgba">rgba(0, 255, 255, 1)</p>
+          <p class="color-hsl">hsl(180, 100%, 50%)</p>
+          <p class="color-hsla">hsla(180, 100%, 50%, 1)</p>
+        </div>
+        <div class="color-panel teal">
+          <p class="color-label" >Teal</p>
+          <p class="color-hex">#008080</p>
+          <p class="color-rgb">rgb(0, 128, 128)</p>
+          <p class="color-rgba">rgba(0, 128, 128, 1)</p>
+          <p class="color-hsl">hsl(180, 100%, 25%)</p>
+          <p class="color-hsla">hsla(180, 100%, 25%, 1)</p>
+        </div>
+        <div class="color-panel black">
+          <p class="color-label" >Black</p>
+          <p class="color-hex">#000000</p>
+          <p class="color-rgb">rgb(0, 0, 0)</p>
+          <p class="color-rgba">rgba(0, 0, 0, 1)</p>
+          <p class="color-hsl">hsl(0, 0%, 0%)</p>
+          <p class="color-hsla">hsla(0, 0%, 0%, 1)</p>
+        </div>
+        <div class="color-panel silver">
+          <p class="color-label" >Silver</p>
+          <p class="color-hex">#c0c0c0</p>
+          <p class="color-rgb">rgb(192, 192, 192)</p>
+          <p class="color-rgba">rgba(192, 192, 192, 1)</p>
+          <p class="color-hsl">hsl(0, 0%, 75%)</p>
+          <p class="color-hsla">hsla(0, 0%, 75%, 1)</p>
+        </div>
+        <div class="color-panel gray">
+          <p class="color-label" >Gray</p>
+          <p class="color-hex">#808080</p>
+          <p class="color-rgb">rgb(128, 128, 128)</p>
+          <p class="color-rgba">rgba(128, 128, 128, 1)</p>
+          <p class="color-hsl">hsl(0, 0%, 50%)</p>
+          <p class="color-hsla">hsla(0, 0%, 50%, 1)</p>
+        </div>
+        <div class="color-panel brown">
+          <p class="color-label" >Brown</p>
+          <p class="color-hex">#964b00</p>
+          <p class="color-rgb">rgb(150, 75, 0)</p>
+          <p class="color-rgba">rgba(150, 75, 0, 1)</p>
+          <p class="color-hsl">hsl(30, 100%, 29%)</p>
+          <p class="color-hsla">hsla(30, 100%, 29%, 1)</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Fonts</h2>
+      <div class="font-container">
+        <div class="font-panel">
+          <p class="font-label source-code-pro">Source Code Pro</p>
+          <p class="regular source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+          <p class="italic source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label nunito-sans">Nunito Sans</p>
+          <p class="regular nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+          <p class="italic nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-panel">
+          <p class="font-label poppins">Poppins</p>
+          <p class="regular poppins">The quick brown fox jumps over the lazy dog.</p>
+          <p class="bold poppins">The quick brown fox jumps over the lazy dog.</p>
+          <p class="italic poppins">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Text Styles</h2>
+      <div class="text-container">
+        <div class="text-panel">
+          <h1>H1: Main page heading</h1>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 26px</li>
+            <li>Font-family: Nunito Sans</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <h2>H2: Subheading</h2>
+          <ul>
+            <li>Font-weight: 500</li>
+            <li>Font-size: 18px</li>
+            <li>Font-family: Poppins</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <p>P: Paragraph text</p>
+          <ul>
+            <li>Font-weight: 400 (regular)</li>
+            <li>Font-size: 14px</li>
+            <li>Font-family: Poppins</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
